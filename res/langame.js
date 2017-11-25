@@ -80,10 +80,8 @@ function doStart() {
     }
 
     var idis_a = lang_focus.join(",");
-    if (Cookies) {
-        Cookies.set("lang", lang_index);
-        Cookies.set("list", idis_a);
-    }
+    Cookies.set("lang", lang_index);
+    Cookies.set("list", idis_a);
     if (storage) {
         storage.setItem("lang", lang_index);
         storage.setItem("list", idis_a);
@@ -239,10 +237,8 @@ function doReady() {
     q_params = getQueryParam();
     var idi = null;
     var idis_a = null;
-    if (Cookies) {
-        idi = Cookies.get("lang");
-        idis_a = Cookies.get("list");
-    }
+    idi = Cookies.get("lang");
+    idis_a = Cookies.get("list");
     if (storage) {
         idi = storage.getItem("lang");
         idis_a = storage.getItem("list");
