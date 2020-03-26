@@ -8,8 +8,8 @@ https://github.com/isaacdlp/langame
 
 Demo site:
 
-http://alternativeinsights.ai/game
+http://algonaut.us/game
 
-http://alternativeinsights.ai/game?lang=RU
+http://algonaut.us/game?lang=RU
 
-http://alternativeinsights.ai/game?lang=RU&list=EN,IT,PT
+http://algonaut.us/game?lang=RU&list=EN,IT,PT
